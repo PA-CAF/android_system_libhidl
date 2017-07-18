@@ -23,16 +23,13 @@ cc_library_shared {
         "HidlFetch.cpp"
     ],
     shared_libs: [
-        "liblog",
         "libcutils",
         "libhardware",
         "libhwbinder",
         "libbase",
-        "libcutils",
         "libutils",
         "libhidlbase",
         "libhidltransport",
-        "android.hidl.base@1.0",
         "android.hidl.memory@1.0",
     ],
 }
